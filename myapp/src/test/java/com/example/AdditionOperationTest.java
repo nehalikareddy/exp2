@@ -1,0 +1,15 @@
+package com.example;
+
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class AdditionOperationTest{
+    @Test
+    public void testAddition(){
+        double num1 = 5;
+        double num2 = 5;
+        double expectedSum = num1 + num2;
+        double actualSum = num1 + num2;
+        assertEquals(expectedSum,actualSum,0.01);
+    }
+}
